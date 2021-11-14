@@ -1,0 +1,119 @@
+/*need to add media queries*/
+
+/* Styling body */
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    margin: 0;
+
+    /*
+    background-image: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,0.8711128234863281) 100%); 
+    background-image: radial-gradient(circle, rgba(251,63,206,0.5482990892627571) 0%, rgba(74,70,252,0.9413515406162465) 81%, rgba(74,60,223,1) 90%);
+    background-color: lightblue;
+    background: radial-gradient(circle at left top, rgba(0,2,36,0.749161603974133) 0%, rgba(29,138,82,0.6248209169054442) 65%, rgba(0,212,255,0.4564786771448647) 100%);
+    background-repeat: no-repeat;
+
+    */
+}
+
+/* Styling navigation bar*/
+/*margin and padding of navigation is 0 to change default margin*/
+
+nav{
+    text-align: center;
+    min-width: 100%;
+    margin: 0px;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.699);
+}
+
+ul{
+    list-style: none;
+    margin: 8px;
+    padding: 0px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(89, 2, 204);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+li a:hover, a:active {
+    color: rgba(170, 13, 202, 0.781);
+    font-size: 100%;
+}
+
+
+/* Styling header */
+header {
+    
+    background-image: url("../images/pawel-czerwinski-OG44d93iNJk-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block; 
+
+    max-width: 100%;
+    min-height: 400px;
+    
+    text-shadow: rgb(245, 245, 245) 0 0 0.2em;
+    text-align: center;
+    
+    padding: 40px; 
+    color: rgb(29, 9, 102);
+
+    box-shadow: 0px 0px 10px 1px rgba(133, 4, 255, 0.089);
+}
+
+header h1 {
+    font-size: 3rem;
+    padding: 5px;
+    
+}
+
+header p {
+    position: relative;
+    font-size: 1.2rem; 
+}
+
+
+/*
+
+.lines {
+    color: #59c1fe;
+    position: fixed;
+    width: 100vw;
+    height: 4em;
+    background: linear-gradient(rgba(color, 0.2) 20%, color 40%, color 60%, rgba(color, 0.2) 80%);
+    background-size: 1px 0.5em;
+    box-shadow: 0 0 1em rgba(color, 0.4);
+    transform: translateY(-1em);
+    left: 0;
+  }
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
