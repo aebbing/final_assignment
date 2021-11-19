@@ -56,15 +56,17 @@ li a:hover{
 
 /* Home Section */
 #home{
-    background-color: rgba(147, 188, 224, 0.678);
+    background-color: rgba(132, 182, 226, 0.678);
+    /*background-color: rgba(147, 188, 224, 0.678);*/
     height: 650px;
     max-width: 100%;
     justify-content: center;
     align-items: center;
-    color: rgb(8, 8, 8); 
+    /*color: rgb(8, 8, 8);*/
     /*padding: 10px 10px 10px 10px;*/
     /*margin: 50px 0px 20px 0px;*/
     margin-top: 100px;
+    color: #04010a;
 }
 
 #home::before{
@@ -78,7 +80,7 @@ li a:hover{
     height: 93%;
     width: 100%;
     z-index: -1;
-    opacity: 80%;
+    opacity: 100%;
 }
 
 .container{
