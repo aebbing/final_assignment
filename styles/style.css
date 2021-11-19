@@ -56,15 +56,19 @@ li a:hover{
 
 /* Home Section */
 #home{
-    background-color: rgba(132, 182, 226, 0.678);
-    /*background-color: rgba(147, 188, 224, 0.678);*/
-    height: 650px;
-    max-width: 100%;
-    justify-content: center;
-    align-items: center;
+    
+    background-color: rgba(147, 188, 224, 0.678);
     /*color: rgb(8, 8, 8);*/
     /*padding: 10px 10px 10px 10px;*/
     /*margin: 50px 0px 20px 0px;*/
+
+    /*background-color: rgba(55, 48, 112, 0.678);*/
+    height: 650px;
+    margin-bottom: 100px;
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
     margin-top: 100px;
     color: #04010a;
 }
@@ -80,7 +84,7 @@ li a:hover{
     height: 93%;
     width: 100%;
     z-index: -1;
-    opacity: 100%;
+    opacity: 90%;
 }
 
 .container{
@@ -109,11 +113,22 @@ p {
 
 /* light glow to make text readable */
 .shadowText {
-    color: rgb(0, 0, 0);
+    color: rgb(14, 0, 36);
+    text-shadow:
+    0 0 8px rgb(255, 255, 255),
+    0 0 12px rgb(226, 216, 216),
+    0 0 50px rgb(255, 253, 253);
+
+    
+    /* with light background color:
+
+    color: rgb(14, 0, 36);
     text-shadow:
     0 0 5px rgb(255, 255, 255),
     0 0 25px rgb(238, 235, 235),
     0 0 100px rgb(230, 228, 228);   
+    */
+
 }
 
 footer {
