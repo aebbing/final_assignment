@@ -228,7 +228,8 @@ We also need to try code in horizontal scren for better responsiveness.
     html{
         scroll-behavior: smooth;
         font-family: "Arial", Helvetica, sans-serif;
-        font-size: calc(14px + (24 - 12) * ((100vw - 600px) / (960 - 400))); /* font-size: 14px;*/
+        /* font-size: calc(14px + (24 - 12) * ((100vw - 600px) / (960 - 400)));*/
+        font-size: calc(14px + 1vw);
         max-width: 100%;
         margin-left: 0;
         margin-right: 0;
@@ -321,7 +322,7 @@ li a:hover{
     right: 0;
     left: 0;
     background: url('../images/hal.jpg') no-repeat center center/cover;
-    min-height: calc(100% + 6vh);
+    min-height: calc(100% + 180px);
     width: 100%;
     z-index: -1;
     opacity: 90%;
@@ -336,7 +337,7 @@ li a:hover{
 
 h1{
     /*font-size: 3rem; for fallback */
-    font-size: 5.6vw;
+    font-size: calc(2rem + 2vw);;
     text-align: center;
     position: relative;
     margin: 10% 5% 0 5%;
@@ -348,7 +349,7 @@ p {
     position: relative;
     text-align: center;
     /*font-size: 1.8rem; for fallback   2vmin*/
-    font-size: calc(14px + (24 - 12) * ((100vw - 600px) / (960 - 400)));
+    font-size: calc(1rem + 2vw);
     font-weight: 520;
     margin: 10px 10% 10px 10%;
     padding: 10px 10px 10px 10px;
@@ -376,7 +377,6 @@ p {
 
 footer {
     position: relative;
-    height: 90px;
     max-width: 100%;
     margin-top: 40px;
     bottom: 0;
@@ -388,7 +388,7 @@ footer {
 
 footer p {
     color: white;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 /*
