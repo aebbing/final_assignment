@@ -439,7 +439,7 @@ We need to check website on firefox too.
     body{
         scroll-behavior: smooth;
         font-family: "Arial", Helvetica, sans-serif;
-        font-size: calc(12px + 1vw);
+        font-size: calc(10px + 1vw);
         max-width: 100%;
         margin: 0;
         top: 0;
@@ -491,10 +491,9 @@ We need to check website on firefox too.
 
     li{
         display: flex;
-        font-size:calc(0.5rem +1vw);
+        font-size:calc(0.1rem + 1vw);
         font-weight: lighter;
         display: flex;
-        /* padding: 0 20px; */
         padding: 5px 10px 5px 10px;
         margin: 0;
     }
@@ -554,8 +553,7 @@ We need to check website on firefox too.
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* margin: 0; */
-        row-gap: 20px;
+        row-gap: 0;
         margin-top: 5px;
         padding: 0 2px 0 2px;
         align-items: center;
@@ -566,12 +564,10 @@ We need to check website on firefox too.
     }
 
     h1{
-        font-size:  calc(14px + 3vw);
+        font-size:  calc(12px + 3vw);
         text-align: center;
         position: relative;
-        /* margin: 10% 5% 0 5%; 
-        padding: 10px 5px 10px 5px;*/
-        margin: 20px 5px 0 5px;
+        margin: 5% 0 2% 0; 
         padding: 0 5px 10px 5px;
         max-width: 80%;
     }
@@ -581,10 +577,8 @@ We need to check website on firefox too.
         text-align: center;
         font-size: calc(12px + 1.5vw);
         font-weight: 500;
-        /* margin: 10px 10% 10px 10%;
-        padding: 10px 10px 10px 10px; */
-        margin: 0;
-        padding: 0;
+        margin: 10px 10% 10px 10%;
+        padding: 10px 10px 10px 10px;
         max-width: 90%;
         line-height: 1.1;
     }
@@ -616,17 +610,22 @@ We need to check website on firefox too.
     }
 
     footer {
+        background-color: #04010a;
+        /*position: relative;*/
         height: 90px;
         width: 100%;
-        margin-top: 40px;
+        margin: 0;
         bottom: 0;
-        padding-top: 10px;
-        background-color: #04010a;
+        padding: 20px 20px 20px 20px;   
     }
 
     footer p {
         color: white;
-        font-size: 1rem;
+        font-size:  calc(5px + 1vw);
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
     }
 
     /*
