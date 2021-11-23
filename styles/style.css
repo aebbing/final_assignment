@@ -169,6 +169,13 @@ We need to check website on firefox too.
         */
     }
 
+    article > * {
+        text-align: left;
+    }
+    article > h1 {
+        margin: 10% 10% 10px 10%;
+    }
+
     footer {
         background-color: #04010a;
         width: 100%;
@@ -376,6 +383,13 @@ We need to check website on firefox too.
         0 0 25px rgb(238, 235, 235),
         0 0 100px rgb(230, 228, 228);
         */
+    }
+
+    article > * {
+        text-align: left;
+    }
+    article > h1 {
+        margin: 10% 10% 10px 10%;
     }
 
     footer {
@@ -592,6 +606,13 @@ We need to check website on firefox too.
         0 0 25px rgb(238, 235, 235),
         0 0 100px rgb(230, 228, 228);
         */
+    }
+
+    article > * {
+        text-align: left;
+    }
+    article > h1 {
+        margin: 10% 10% 10px 10%;
     }
 
     footer {
