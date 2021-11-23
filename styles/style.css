@@ -84,12 +84,12 @@ We need to check website on firefox too.
     /* Home Section */
     #home{
 
-        /*background-color: rgba(147, 188, 224, 0.678);*/
+        background-color: rgba(147, 188, 224, 0.678);
         /*color: rgb(8, 8, 8);*/
         /*padding: 10px 10px 10px 10px;*/
         /*margin: 50px 0px 20px 0px;*/
 
-        background-color: rgba(55, 48, 112, 0.678);
+        /*background-color: rgba(55, 48, 112, 0.678);*/
         height: 70%;
         margin-top: 20%; 
         margin-bottom: 20%;
