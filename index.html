@@ -11,12 +11,15 @@
 <body>
 
 
-<!-- navigation bar with label and role tags for screen readers--> <!--role="navigation" validator says its unnecessary-->
+<!-- navigation bar with label for screen readers--> 
+<!-- navigation had role="navigation" but validator says its unnecessary. I read it somwhere here:https://www.w3.org/WAI/tutorials/menus/structure/.
+we can add this thing in our validation area. -->
 <nav aria-labelledby="mainmenulabel">
   <h2 id="mainmenulabel" class="visuallyhidden">Main Menu</h2>
   <ul>
     <li><a href="index.html">Home</a></li>
-    <li><a href="reflectionEssay.html">Reflection Essay</a></li>
+    <li><a href="reflectionEssay.html">Our challenges</a></li>
+    <li><a href="technologyAndSociety.html">Topical information</a></li>
     <li><a href="accessibility.html">Accessibility</a></li>
     <li><a href="fun.html">Fun</a></li>
     <li><a href="#about">About Us</a></li>
