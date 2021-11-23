@@ -171,12 +171,9 @@ We need to check website on firefox too.
 
     footer {
         background-color: #04010a;
-        position: relative;
-        height: 100%;
         width: 100%;
         right: 0;
         bottom: 0;
-        left: 0;
         padding: 1rem;
         
     }
@@ -227,7 +224,7 @@ We need to check website on firefox too.
         max-width: 100%;
         height: 100vh;
     }
-
+    
     /* Navigation bar */
     nav{
         /* You guys decicide if we need this code or not I see no difference with it or without it:
@@ -240,7 +237,7 @@ We need to check website on firefox too.
         max-width: 100%;
         margin: 0 auto;
         padding: 3px;
-    }
+}
 
     /*for screen readers*/
     .visuallyhidden{
@@ -558,13 +555,10 @@ We need to check website on firefox too.
     }
 
     footer {
-        position: absolute;
         height: 90px;
-        max-width: 100%;
+        width: 100%;
         margin-top: 40px;
         bottom: 0;
-        right: 0;
-        left: 0;
         padding-top: 10px;
         background-color: #04010a;
     }
