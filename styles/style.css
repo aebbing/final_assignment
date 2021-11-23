@@ -1,6 +1,9 @@
 /*
 Note:
 We need to try code in horizontal screen as well for better responsiveness.
+IE 9 does not support CSS3 animations.
+Footer is not working properly on edge. Needs fixing.
+We need to check website on firefox too.
 */
 
 @media only screen and (max-width: 600px){
