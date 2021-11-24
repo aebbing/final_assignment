@@ -74,7 +74,7 @@ We need to check website on firefox too.
 
     /*bottom border here is for accessibilty*/
     li a:active{
-        color: 04010a;
+        color: #04010a;
         font-weight: lighter;
         Text-shadow: 0 0 18px white;
         border-bottom: .25em solid #444;
@@ -285,7 +285,7 @@ We need to check website on firefox too.
 
     li a:hover{
         background-color: rgba(255, 255, 255, 0.521);
-        color: 04010a;
+        color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
         border-radius: 15px;
@@ -498,7 +498,7 @@ We need to check website on firefox too.
     li a:hover{
         transition: all 0.75s ease;
         background-color: rgba(255, 255, 255, 0.521);
-        color: 04010a;
+        color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
         border-radius: 15px;
