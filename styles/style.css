@@ -178,7 +178,13 @@ We need to check website on firefox too.
     article > * {
         text-align: left;
     }
+
     article > h1 {
+        margin: 10% 10% 10px 10%;
+        font-size: calc(0.85em + 3vw);
+    }
+
+    article > p {
         margin: 10% 10% 10px 10%;
     }
 
@@ -502,7 +508,7 @@ We need to check website on firefox too.
 
     li{
         display: flex;
-        font-size:calc(0.1rem + 1vw);
+        font-size:calc(0.1em + 1vw);
         font-weight: lighter;
         display: flex;
         padding: 5px 10px 5px 10px;
@@ -613,12 +619,24 @@ We need to check website on firefox too.
         0 0 100px rgb(230, 228, 228);
     }
 
+    main.main {
+        margin-bottom: 10%;
+    }
+
     article > * {
         text-align: left;
     }
+    
     article > h1 {
-        margin: 10% 10% 10px 10%;
+        margin: 3% 10% 0 10%;
+        font-size: calc(12px + 1vw);
     }
+
+    article > p {
+        margin: 0 10% 0 10%;
+        font-size: calc(8px + 1vw);
+    }
+
 
     footer {
         background-color: #04010a;
