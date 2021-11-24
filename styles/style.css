@@ -90,10 +90,9 @@ We need to check website on firefox too.
         /*margin: 50px 0px 20px 0px;*/
 
         /*background-color: rgba(55, 48, 112, 0.678);*/
-        height: 70%;
-        margin-top: 20%; 
-        margin-bottom: 20%;
-        padding: 5px 5px 5px 5px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 3rem;
         max-width: 100%;
         justify-content: center;
         align-items: center;
@@ -114,6 +113,12 @@ We need to check website on firefox too.
         left: 0;
         bottom: 0;
         padding: 0;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, #cdced3, #e1e2e7);
+        background-size: 100% 100%;
+        z-index: -2;
     }
 
     .container{
@@ -182,7 +187,7 @@ We need to check website on firefox too.
         right: 0;
         bottom: 0;
         padding: 1rem;
-        
+        height: 2rem;
     }
 
     footer p{
@@ -306,14 +311,12 @@ We need to check website on firefox too.
         /*margin: 50px 0px 20px 0px;*/
 
         /*background-color: rgba(55, 48, 112, 0.678);*/
-        height: 75%;
-        margin-top: 20%;
-        margin-bottom: 20%;
-        padding: 10px 10px 10px 10px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        padding: 3rem;
         max-width: 100%;
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
         
     }
 
@@ -331,6 +334,12 @@ We need to check website on firefox too.
         left: 0;
         z-index: -1;
         opacity: 92%;
+    }
+
+    body {
+        background-image: linear-gradient(to right, #cdced3, #e1e2e7);
+        background-size: 100% 100%;
+        z-index: -2;
     }
 
     .container{
@@ -546,6 +555,12 @@ We need to check website on firefox too.
         width: 100vw;
         z-index: -1;
         opacity: 92%;
+    }
+
+    body {
+        background-image: linear-gradient(to right, #cdced3, #e1e2e7);
+        background-size: 100% 100%;
+        z-index: -2;
     }
 
     .container{
