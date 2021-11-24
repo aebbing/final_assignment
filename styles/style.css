@@ -508,7 +508,7 @@ We need to check website on firefox too.
 
     li{
         display: flex;
-        font-size:calc(0.1em + 1vw);
+        font-size:calc(0.05rem + 1vw);
         font-weight: lighter;
         display: flex;
         padding: 5px 10px 5px 10px;
