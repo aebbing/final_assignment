@@ -84,12 +84,12 @@ We need to check website on firefox too.
     /* Home Section */
     #home{
 
-        /*background-color: rgba(147, 188, 224, 0.678);*/
+        background-color: rgba(147, 188, 224, 0.678);
         /*color: rgb(8, 8, 8);*/
         /*padding: 10px 10px 10px 10px;*/
         /*margin: 50px 0px 20px 0px;*/
 
-        background-color: rgba(55, 48, 112, 0.678);
+        /*background-color: rgba(55, 48, 112, 0.678);*/
         height: 70%;
         margin-top: 20%; 
         margin-bottom: 20%;
@@ -152,21 +152,21 @@ We need to check website on firefox too.
 
     /* light glow to make text readable */
     .shadowText {
-        color: rgb(0, 0, 0);
+        /*color: rgb(0, 0, 0);
         text-shadow:
         0 0 5px rgb(255, 255, 255),
         0 0 10px rgba(241, 236, 236, 0.897),
-        0 0 15px rgba(255, 253, 253, 0.521);
+        0 0 15px rgba(255, 253, 253, 0.521);*/
 
 
-        /* with light background color:
+        /* with light background color:*/
 
         color: rgb(14, 0, 36);
         text-shadow:
         0 0 5px rgb(255, 255, 255),
         0 0 25px rgb(238, 235, 235),
         0 0 100px rgb(230, 228, 228);
-        */
+    
     }
 
     article > * {
@@ -300,12 +300,12 @@ We need to check website on firefox too.
     /* Home Section */
     #home{
 
-        /*background-color: rgba(147, 188, 224, 0.678);*/
+        background-color: rgba(147, 188, 224, 0.678);
         /*color: rgb(8, 8, 8);*/
         /*padding: 10px 10px 10px 10px;*/
         /*margin: 50px 0px 20px 0px;*/
 
-        background-color: rgba(55, 48, 112, 0.678);
+        /*background-color: rgba(55, 48, 112, 0.678);*/
         height: 75%;
         margin-top: 20%;
         margin-bottom: 20%;
@@ -368,21 +368,21 @@ We need to check website on firefox too.
 
     /* light glow to make text readable */
     .shadowText {
-        color: rgb(0, 0, 0);
+ /*       color: rgb(0, 0, 0);
         text-shadow:
         0 0 8px rgb(255, 255, 255),
         0 0 10px rgb(226, 216, 216),
-        0 0 20px rgb(255, 253, 253);
+        0 0 20px rgb(255, 253, 253);*/
 
 
-        /* with light background color:
+        /* with light background color:*/
 
         color: rgb(14, 0, 36);
         text-shadow:
         0 0 5px rgb(255, 255, 255),
         0 0 25px rgb(238, 235, 235),
         0 0 100px rgb(230, 228, 228);
-        */
+    
     }
 
     article > * {
@@ -536,7 +536,7 @@ We need to check website on firefox too.
 
     #home::before{
         content: "";
-        position: fixed;
+        position: absolute;
         top: 0;
         bottom: 90;
         right: 0;
