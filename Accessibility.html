@@ -1,45 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "styles/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Document</title>
 </head>
+
 <body>
-    
-    <nav aria-labelledby="mainmenulabel">
-            <ul>
-                <li>
-                    <span class="current">
-                      <span class="visuallyhidden"> Current Page:</span>
-                      Accessibility
-                    </span>
-                  </li>  
-                <li><a href="index.html">Home</a></li>
-                <li><a href="reflectionEssay.html">Our challenges</a></li>
-                <li><a href="information.html">Topical information</a></li>
-                <li><a href="accessibility.html">Accessibility</a></li>
-                <li><a href="fun.html">Fun</a></li>
-                <li><a href="#about">About Us</a></li>
-            </ul>
-    </nav>
 
-<main>
+  <nav aria-labelledby="mainmenulabel" id="mainmenulabel">
+    <!-- hamburger menu start -->
+  <label for="toggle">&#9776;</label>
+  <input type="checkbox" id="toggle">
+  <!-- hambuerger menu end -->
+    <ul>
+      <li>
+        <span class="current">
+          <span class="visuallyhidden"> Current Page:</span>
+          Accessibility
+        </span>
+      </li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="reflectionEssay.html">Our challenges</a></li>
+      <li><a href="information.html">Topical information</a></li>
+      <li><a href="Accessibility.html" class="here">Accessibility</a></li>
+      <li><a href="fun.html">Fun</a></li>
+      <li><a href="#about">About Us</a></li>
+    </ul>
+  </nav>
 
-<article>
-    <h1>ACCESSIBILITY</h1>
-    
-    <p>This page describes our thinking process, and what tips we got from the automated accessibility test.</p>
-    
-</article>
-</main>
+  <main>
 
-<footer>
+    <article>
+      <h1>ACCESSIBILITY</h1>
+
+      <p>This page describes our thinking process, and what tips we got from the automated accessibility test.</p>
+
+      <p>We tried different things to get accessibility using different tests online. For example, we used
+        color contrast accessibility validator to check the colour contrast of our webpage. The colour-checker 
+        told us that the contrast between the background-colour and the text-colour should be higher. We fixed 
+        this issue to make the visibility of the text clearer for everybody. For easy readability we created a 
+        container to add a background colour. We also added text shadows to the text to make it clearer. We also 
+        used calc() fonts with vw units to make text size bigger if the page is zoomed.  </p>
+
+      <p>We used aria-labelledby attribute in navigation bar for accessibility. It also increases compatibility 
+        cross web browsers which assures us that code will run on different platforms. We tried our best to maintain 
+        the semantic structure of the page for example we use nav tag for navigation bar rather than use div tag and 
+        use class as nav. We also used unordered list and h2 tag in navigation bar to increase accessibility 
+        specially for screenreader users. For better performance of aria-labelledby attributes we needed h2 tag rather 
+        than p tag. This way they can identify the structure of the page easily.  </p>
+
+      <p>We made sure there is only one h1 tag in main section for screenreader users. Headings levels were used 
+        properly from h1 to h6 where there were more headings. We also avoid using br tag to break paragraphs and 
+        headings to gain maximum accessibility for everyone. 
+      </p>
+
+      <p> For small screens we preferred to use :active selector instead of :hover selector to make it easier to which 
+        page is loaded. For larger screens we used :hover selector to make navigation bar items glow and more visible 
+        for users, and underline on navigation bar list items to see where they are on the website.  </p>
+
+      <p>For the smaller screens we used the hamburger menu in the navigation bar to prevent list items from stacking 
+        on top of each other when the screen width becomes smaller. There was an issue regarding this. A screenreader 
+        would have simply ignored the three-bar icon, and it was also impossible to select the icon with keyboard. It 
+        was risking our website’s accessibility so we found a solution of unhiding the checkbox connected to the icon
+        and adding an aria-label, so that the screenreader would be able to catch it and allowing users to open it by 
+        tapping the space bar to navigate the website. At the same time, we reduced the checkbox size and opacity, 
+        thus making it invisible to other users.  </p>
+
+      <p id="lastP"> We used W3C CSS validation and html validation for all the pages and found some errors. There were errors 
+       for example missing id for aria labelledby attribute. We add the id to the nav bar to fix this. We also removed 
+       some unnecessary tags and fixed syntax of code. </p>
+
+
+    </article>
+  </main>
+
+  <footer aria-labelledby="footer-navigation">
     <p>
-      Some pictures are taken from Unsplash
+      Pictures are taken from Unsplash
     </p>
-</footer>
+  </footer>
 </body>
+
 </html>

@@ -10,7 +10,11 @@
 </head>
 
 <body>
-  <nav aria-labelledby="mainmenulabel">
+  <nav aria-labelledby="mainmenulabel" id="mainmenulabel">
+    <!-- hamburger menu start -->
+  <label for="toggle">&#9776;</label>
+  <input type="checkbox" id="toggle">
+  <!-- hambuerger menu end -->
     <ul>
       <li>
         <span class="current">
@@ -19,90 +23,80 @@
       </span>
       </li>
       <li><a href="index.html">Home</a></li>
-      <li><a href="reflectionEssay.html">Our challenges</a></li>
+      <li><a href="reflectionEssay.html"  class="here">Our challenges</a></li>
       <li><a href="information.html">Topical information</a></li>
-      <li><a href="accessibility.html">Accessibility</a></li>
+      <li><a href="Accessibility.html">Accessibility</a></li>
       <li><a href="fun.html">Fun</a></li>
       <li><a href="#about">About Us</a></li>
      
     </ul>
   </nav>
 
-  <main class="main">
-  <article>
-    <h1>Our challenges</h1>
+  <main class="main" role="main" aria-labelledby="challenges">
+  <article class="reflect">
+    <h1 class="artHeader" id="challenges">Our challenges</h1>
 
-    <p>
-      I was very excited for transitioning from upper-secondary school to university. It made me feel more 
+    <p> I was very excited for transitioning from upper-secondary school to university. It made me feel more 
       responsible for my life, but soon my excitement converted into stress. The challenges of being a student 
       were very new for me. It was hard to keep balance in life because of different challenges I faced as 
-      a first-year student.
-    </p>
+      a first-year student. </p>
     
-    <img src="images/jukan-tateisi-bJhT_8nbUA0-unsplash.jpg" alt="little child in front of huge stairway">
+    <img id="stairway" src="images/jukan-tateisi-bJhT_8nbUA0-unsplash.jpg" alt="little child in front of huge stairway">
 
-    <h2>No background knowledge</h2>
-    <p>
-      My biggest challenge is that I am not from computer background. That is why I did not realise in the 
+    <h2 class="artHeader">No background knowledge</h2>
+    <p> My biggest challenge is that I am not from computer background. That is why I did not realise in the 
       start that we learn coding by practicing it, and we need a lot of practice. It is not something we see 
       others doing and learn just like that. Learning to code is like learning a new language. Programming is 
-      very different than other subjects. It takes a lot of time to learn and to master it. 
-    </p>
+      very different than other subjects. It takes a lot of time to learn and to master it. </p>
+    
+    <img src="images/kelly-sikkema-O5XJoxrYbQo-unsplash.jpg" alt="blank page">
 
-    <h3>Frustration</h3>
-    <p>
-      I experienced frustration. There are times when I was discouraged because I was unable to find a mistake 
+    <h3 class="artHeader">Frustration</h3>
+    <p> I experienced frustration. There are times when I was discouraged because I was unable to find a mistake 
       in my code. It is annoying when code is not running, and you try everything to make it run, and in the end, 
       it is just a semi colon which is missing. One little typo can make your entire program stop. One need to 
       work focused, and very accurate to get the results he or she wants. That is why it was and still is very 
       challenging for me. This is also what makes it fun too. It is like we are learning all the time to be better.
-      The feeling I get after solving the problem is the best feeling.
-    </p>
+      The feeling I get after solving the problem is the best feeling. </p>
     
     <img src="images/towfiqu-barbhuiya-Jxi526YIQgA-unsplash.jpg" alt="sign 'possible'">
 
-    <h4>Feeling stupid</h4>
-    <p>
-      The major issue I had while learning java was the understanding about the use of code. Most of the code was 
+    <h4 class="artHeader">Feeling stupid</h4>
+    <p> The major issue I had while learning java was the understanding about the use of code. Most of the code was 
       simply not making any sense. It was very difficult to know that you know nothing about what the code says, 
       but if you write this so it will be printed on the screen. I found it difficult to understand when to use different 
-      java classes and when to make them as private or public etc. Eventually all things make sense, but it takes time.
-    </p>
+      java classes and when to make them as private or public etc. Eventually all things make sense, but it takes time. </p>
     
     <!-- Picture taken from unsplash -->
-    <img src="images/site-plan.jpg" alt="girl planning her website">
+    <img src="images/emily-morter-8xAA0f9yQnE-unsplash.jpg" alt="dark tunnel with a big questionmark">
 
-    <p>
-      When we look at the work of other people, it looks very easy to do. My opinion changed when I started learning 
+    <p> When we look at the work of other people, it looks very easy to do. My opinion changed when I started learning 
       html and CSS. It is very difficult to create a website the way you wanted it to be. It is even difficult to stick 
       to the plan you made before starting your website. Even though it sounds complicated, but its all part of coding fun. 
-      These are things which become more natural with time and experience, but in the beginning it is extremely challenging.
-    </p>
+      These are things which become more natural with time and experience, but in the beginning it is extremely challenging. </p>
 
-    <h5>New reality</h5>
-    <p>
-      Another thing which I experienced is that time goes very fast with coding especially when I am stuck on a task. It 
+    <h5 class="artHeader">New reality</h5>
+    <p> Another thing which I experienced is that time goes very fast with coding especially when I am stuck on a task. It 
       makes difficult to have a balanced life. I found it hard to manage work, family and studies. As a result, I found 
       almost no time for hobbies and socialising. All these experiences in the first year were new. It took me some time 
       to realise the differences between high school life and university life. I think for most of the first-year students 
-      the real challenge is to learn how to study effectively and manage time better. 
-    </p>
+      the real challenge is to learn how to study effectively and manage time better. </p>
     
     <img src="images/balance.jpg" alt="person balances on a stick">
 
-    <h6>Getting there</h6>
-    <p>
-      Despite all the challenges coding is exciting. The most interesting thing about coding is it gives us endless 
+    <h6 class="artHeader">Getting there</h6>
+    <p> Despite all the challenges coding is exciting. The most interesting thing about coding is it gives us endless 
       opportunities with almost no limits. It is fun to make programs which can do whatever you want. The most amazing 
-      thing about coding is it makes us good problem solver. We can make our lives easy by coding. 
-    </p>
+      thing about coding is it makes us good problem solver. We can make our lives easy by coding. </p>
+    
+    <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" alt="two people collaborating">
 
   </article>
   </main>
 
-  <footer>
+  <footer aria-labelledby="footer-navigation">
     <p>
-      Some pictures are taken from Unsplash
+      Pictures are taken from Unsplash
     </p>
   </footer>
 </body>

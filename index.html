@@ -11,19 +11,17 @@
 <body>
 
 <!-- navigation bar with label for screen readers--> 
-<!-- navigation had role="navigation" but validator says its unnecessary. I read it somwhere here:https://www.w3.org/WAI/tutorials/menus/structure/.
-we can add this thing in our validation area. -->
 <nav aria-labelledby="mainmenulabel">
   <!-- hamburger menu start -->
   <label for="toggle">&#9776;</label>
-  <input type="checkbox" id="toggle" aria-label="main menu">
-  <!-- hamburger menu end -->
+  <input type="checkbox" id="toggle">
+  <!-- hambuerger menu end -->
   <h2 id="mainmenulabel" class="visuallyhidden">Main Menu</h2>
   <ul>
-    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html" class="here">Home</a></li>
     <li><a href="reflectionEssay.html">Our challenges</a></li>
     <li><a href="information.html">Topical information</a></li>
-    <li><a href="accessibility.html">Accessibility</a></li>
+    <li><a href="Accessibility.html">Accessibility</a></li>
     <li><a href="fun.html">Fun</a></li>
     <li><a href="#about">About Us</a></li>
   </ul>
@@ -33,7 +31,7 @@ we can add this thing in our validation area. -->
 <main>
 <section id="home">
   <div class="container">
-    <h1 class="shadowText">Life of <br> First-year Students</h1>
+    <h1 class="shadowText">Life of First-year Students</h1>
     <p class="shadowText">Welcome to our website. We are bachelor students at OsloMet. This website is about our 
       experiences as first-year students. Find out more about us by exploring this website.
     </p>
@@ -42,9 +40,9 @@ we can add this thing in our validation area. -->
 </main>
 
 <!-- Footer with other information -->
-<footer>
+<footer aria-labelledby="footer-navigation" id="index-footer">
   <p>
-    Some pictures are taken from Unsplash
+    Pictures are taken from Unsplash
   </p>
 </footer>
 

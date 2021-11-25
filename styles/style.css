@@ -22,7 +22,6 @@ We need to check website on firefox too.
         scroll-behavior: smooth;
         font-family: "Arial", sans-serif, Helvetica;
         font-size: calc(0.80em + 1vw);
-        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
@@ -240,23 +239,48 @@ We need to check website on firefox too.
     }
 
     article > p {
-        margin: 0 10% 0 10%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
         font-size: calc(8px + 1vw);
+    }
+    
+    #lastP {
+        margin-bottom: 2%;
     }
     
     article img {
         max-height: 150px;
-        margin: 5% 10% 5% 10%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
+    }
+    
+    .artHeader {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .reflect p {
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     footer {
-        position: absolute;
         background-color: #04010a;
         width: 100%;
         right: 0;
         bottom: 0;
         padding: 1rem;
+        position: relative;
+    }
+
+    #index-footer {
+        position: absolute;
     }
 
     footer p{
@@ -264,13 +288,19 @@ We need to check website on firefox too.
         font-size:  calc(0.70em + 1vw);
         width: 80%;
         text-align: center;
-        margin: 0 auto;
-        padding: 0 auto;
+        margin: 0px auto;
+        padding: 0px auto;
+    }
+
+    .here {
+        text-decoration: underline;
+        text-decoration-color: white;
     }
 
     /*css hamburger menu - start*/
     ul li {
         line-height: 50px;
+        text-align: center;
     }
 
     label {
@@ -280,6 +310,7 @@ We need to check website on firefox too.
         cursor: pointer;
         line-height: 50px;
         width: 50px;
+        padding: 10px;
     }
 
     #toggle {
@@ -295,6 +326,10 @@ We need to check website on firefox too.
 
     nav > label, input {
         display: inline-block;
+    }
+
+    nav {
+        text-align: left;
     }
     /*css hamburger menu - end*/
     /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
@@ -331,10 +366,6 @@ We need to check website on firefox too.
     
     /* Navigation bar */
     nav{
-        /* You guys decicide if we need this code or not I see no difference with it or without it:
-        display: flex;
-        flex-flow: column wrap; 
-        justify-content: center;*/
         background-color: #04010a;
         position: sticky;
         text-align: center;
@@ -402,7 +433,7 @@ We need to check website on firefox too.
         /*display: flex;*/
         width: 100%;
         /*end*/
-        font-size:calc(0.5rem +1vw);
+        font-size:calc(0.5rem + 1vw);
         font-weight: lighter;
         padding: 5px 10px 5px 10px;
         margin: 0;
@@ -417,7 +448,7 @@ We need to check website on firefox too.
     }    
 
     li a:hover{
-        background-color: rgba(255, 255, 255, 0.521);
+        background-color: rgba(255, 255, 255, 0.63);
         color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
@@ -543,15 +574,33 @@ We need to check website on firefox too.
     }
 
     article > p {
-        margin: 0 10% 0 10%;
+        margin: 2% 10% 2% 10%;
         padding: 0 auto;
         font-size: calc(8px + 1vw);
     }
     
+    #lastP {
+        margin-bottom: 3%;
+    }
+    
     article img {
         max-height: 200px;
-        margin: 5% 10% 5% 10%;
-        display: flex;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .artHeader {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .reflect p {
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     footer {
@@ -574,10 +623,20 @@ We need to check website on firefox too.
         margin: 0 auto;
         padding: 0 auto;
     }
+    
+    #lastP {
+        margin-bottom: 3%;
+    }
+
+    .here {
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
 
     /*css hamburger menu - start*/
     ul li {
         line-height: 50px;
+        text-align: center;
     }
 
     label {
@@ -587,6 +646,7 @@ We need to check website on firefox too.
         cursor: pointer;
         line-height: 50px;
         width: 50px;
+        padding: 10px;
     }
 
     #toggle {
@@ -602,6 +662,10 @@ We need to check website on firefox too.
 
     nav > label, input {
         display: inline-block;
+    }
+
+    nav {
+        text-align: left;
     }
     /*css hamburger menu - end*/
     /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
@@ -647,7 +711,7 @@ We need to check website on firefox too.
         padding: 3px;
     }
 
-    /*https://snook.ca/archives/html_and_css/hiding-content-for-accessibility used style guide from here for screen readers*/
+    /* For screen readers*/
     .visuallyhidden{
         position: absolute; 
         overflow: hidden;
@@ -711,12 +775,13 @@ We need to check website on firefox too.
 
     li a:hover{
         transition: all 0.75s ease;
-        background-color: rgba(255, 255, 255, 0.521);
+        background-color: rgba(255, 255, 255, 0.733);
         color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
         border-radius: 15px;
     }
+
 
 
     /* Home Section */
@@ -843,10 +908,32 @@ We need to check website on firefox too.
         font-size: calc(8px + 1vw);
     }
     
+    #lastP {
+        margin-bottom: 4%;
+    }
+    
     article img {
-        max-height: 1250px;
-        margin: 5% 10% 5% 10%;
+        max-height: 350px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
+    }
+    
+    #stairway {
+        max-height: 300px;
+    }
+    
+    .artHeader {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .reflect p {
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
 
@@ -868,6 +955,11 @@ We need to check website on firefox too.
         text-align: center;
         margin: 0 auto;
         padding: 0 auto;
+    }
+
+    .here {
+        text-decoration: underline;
+        text-decoration-color: white;
     }
 
     /*css hamburger menu - start*/
