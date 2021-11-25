@@ -124,14 +124,14 @@
         
     }
 
-    .container {
+    .box {
         display: flex;
         flex-direction: row;
         row-gap: 100px;
     }
     
 
-    .container > div{
+    .box > div{
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -313,14 +313,14 @@
         
     }
 
-    .container {
+    .box {
         display: flex;
         flex-direction: row;
         row-gap: 100px;
     }
     
 
-    .container > div{
+    .box > div{
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -509,14 +509,14 @@
         
     }
 
-    .container {
+    .box {
         display: flex;
         flex-direction: row;
         row-gap: 100px;
     }
     
 
-    .container > div{
+    .box > div{
         width: 5px;
         height: 5px;
         margin-left: 0;
