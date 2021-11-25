@@ -506,8 +506,15 @@
         0 0 2rem #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
-        
+        inset 0 0 1.3rem #bc13fe;  
+    }
+
+    .neonText {
+        color: #fff;
+        text-shadow:
+            0 0 7px rgba(255, 255, 255, 0.74),
+            0 0 10px rgba(255, 255, 255, 0.63),
+            0 0 21px rgba(255, 255, 255, 0.726);   
     }
 
     .box {
@@ -537,13 +544,7 @@
     }      
       
       
-    .neonText {
-        color: #fff;
-        text-shadow:
-            0 0 7px rgba(255, 255, 255, 0.74),
-            0 0 10px rgba(255, 255, 255, 0.63),
-            0 0 21px rgba(255, 255, 255, 0.726);   
-    }
+    
   
 
 /*
