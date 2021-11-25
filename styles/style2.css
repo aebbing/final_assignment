@@ -12,13 +12,16 @@
 
 
     body {
-        background-color: black;
+        background-color: rgb(22, 4, 22);
         scroll-behavior: smooth;
         max-width: 100%;
-        height: 100%;
+        min-height: 100vh; 
         margin: 0;
         border: 0;
         padding: 0;
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto 1fr auto;
     }
 
     
@@ -30,6 +33,36 @@
         max-width: 100%;
         margin: 0;
         padding: 3px;
+    }
+
+      /*for screen readers*/
+      .visuallyhidden{
+        position: absolute; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+    }
+
+    .current{
+        position: absolute; 
+        overflow: hidden;
+        color: white;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0;
+
+    }
+
+    .visuallyHidden{
+        position: relative; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
     }
 
     ul{
@@ -70,10 +103,9 @@
     }
 
     footer {
-        background-color: #04010a;
-        position: relative;
-        height: 100%;
+        background-color: #3c0147;
         max-width: 100%;
+        min-height:50px; 
         margin-top: 0;
         bottom: 0;
         right: 0;
@@ -89,8 +121,6 @@
         margin: 0 auto;
         padding: 0 auto;
     }
-
-
 }
 
 
@@ -107,9 +137,9 @@
     }
 
     /* Using viewport units for fonts to make text auto resize and stay maximum inside purple background for readability*/
-    html,
     body{
         scroll-behavior: smooth;
+        background-color: rgb(12, 0, 12);
         max-width: 100%;
         margin: 0;
         top: 0;
@@ -117,6 +147,9 @@
         bottom: 0;
         left: 0;  
         height: 100vh;
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto 1fr auto;
     }
     
     /* Navigation bar */
@@ -145,12 +178,22 @@
 
     .current{
         position: absolute; 
-        /* overflow: hidden; */
+        overflow: hidden;
+        color: white;
         height: 1px;
         margin: 0; 
         padding: 0; 
         border: 0;
 
+    }
+
+    .visuallyHidden{
+        position: relative; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
     }
 
     ul{
@@ -193,9 +236,49 @@
         transition: all 0.75s ease;
     }
 
+    /*neon styling*/
+
+    h1 {
+        margin-top: 7%;
+        margin-left: 5%;
+        font-size: calc(0.85em + 2vw);
+    }
+
+    div {
+        width: 10px;
+        height: 10px;
+        margin-left: 0;
+        margin-top: 10%;
+        background-color: red;
+        animation-name: box;
+        animation-duration: 8s;
+      }
+
+    @keyframes box {
+        0%   {background-color: red;}
+        25%  {background-color: rgb(179, 179, 17);}
+        50%  {background-color: rgb(25, 25, 139);}
+        100% {background-color: rgb(27, 114, 27);}
+      }      
+      
+      
+    .neonText {
+        color: #fff;
+        text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px #0fa,
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px #0fa,
+            0 0 151px #0fa;
+    }
+  
+
 
     footer {
-        background-color: #04010a;
+        background-color: #3c0147;
         position: relative;
         height: 100%;
         max-width: 100%;
@@ -229,37 +312,58 @@
     }
 
     /* Using viewport units for fonts to make text auto resize and stay maximum inside purple background for readability*/
-    html,
     body{
         scroll-behavior: smooth;
-        font-family: "Arial", Helvetica, sans-serif;
+        font-family: "Arial", Helvetica, sans-serif; /*we can change font styles*/
         font-size: calc(10px + 1vw);
         max-width: 100%;
+        min-height: 100vh;
         margin: 0;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;  
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns:auto;
         grid-template-rows: auto 1fr auto;
-        max-width: 100%;
-        height: 100vh;
+
     }
 
     /* Navigation bar */
     nav{
-        background-color: #04010a;
+        background-color: #3c0147;
         position: sticky;
         text-align: center;
         width: 100%;
+        
         margin: 0 auto;
         padding: 3px;
     }
 
-    /*https://snook.ca/archives/html_and_css/hiding-content-for-accessibility used style guide from here for screen readers*/
+    /* For screen readers*/
     .visuallyhidden{
         position: absolute; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+    }
+
+    
+    .current{
+        position: absolute; 
+        overflow: hidden;
+        color: white;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0;
+
+    }
+
+    .visuallyHidden{
+        position: relative; 
         overflow: hidden;
         height: 1px;
         margin: 0; 
@@ -303,20 +407,47 @@
     li a:hover{
         transition: all 0.75s ease;
         background-color: rgba(255, 255, 255, 0.521);
-        color: #04010a;
+        color: white;
         font-weight: 400;
         box-shadow: 0 0 10px white;
         border-radius: 15px;
     }
 
+/*
+    .lines {
+        display: block;
+        color: turquoise;
+        margin-right: auto; 
+        margin-left: auto; 
+        overflow: hidden; 
+        border-style: inset; 
+        border-width: 1px;
+        width: 60%;
+    }
+    
+    .neonLines {
+        color: #59c1fe;
+        position: fixed;
+        width: 100vw;
+        height: 4em;
+        background: linear-gradient(rgba(color, 0.2) 20%, color 40%, color 60%, rgba(color, 0.2) 80%);
+        background-size: 1px 0.5em;
+        box-shadow: 0 0 1em rgba(color, 0.4);
+        transform: translateY(-1em);
+        left: 0;
+      }*/
+
+
+
+
+
     
     footer {
-        background-color: #04010a;
-        /*position: relative;*/
-        display: border-box;
-        height: 90px;
+        background-color: #3c0147;
+        position: relative;
+        min-height:50px; 
         width: 100%;
-        margin: 0;
+        margin-top: auto;
         bottom: 0;
         padding: 20px 20px 20px 20px;
     }

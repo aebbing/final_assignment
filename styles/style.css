@@ -43,6 +43,36 @@ We need to check website on firefox too.
         padding: 3px;
     }
 
+    /*for screen readers*/
+    .visuallyhidden{
+      position: absolute; 
+      overflow: hidden;
+      height: 1px;
+      margin: 0; 
+      padding: 0; 
+      border: 0; 
+    }
+
+    .current{
+        position: absolute; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+        left: 1px;
+    }
+
+    .visuallyHidden{
+        position: relative; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+        left: 1px;
+    }
+
     ul{
         display: flex;
         flex-flow: row wrap;
@@ -264,11 +294,11 @@ We need to check website on firefox too.
         max-width: 100%;
         margin: 0 auto;
         padding: 3px;
-}
+    }
 
     /*for screen readers*/
     .visuallyhidden{
-        position: fixed; 
+        position: absolute; 
         overflow: hidden;
         height: 1px;
         margin: 0; 
@@ -276,14 +306,36 @@ We need to check website on firefox too.
         border: 0; 
     }
 
+    .current{
+        position: absolute; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+        left: 1px;
+    }
+
+    .visuallyHidden{
+        position: relative; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+        left: 1px;
+    }
+
+    /*list inside nav for accessibilty*/
     ul{
         display: flex;
         flex-flow: row wrap;
         justify-content: start;
-        column-gap: 0;
+        column-gap: 2px;
+        row-gap: 4px;
         list-style: none;
         margin: 0 auto;
-        padding: 0;
+        padding: 0 auto;
         max-width: 80%;
 
         /* adding these two lines for internet explorer as flex-justify content does not work*/
@@ -511,6 +563,26 @@ We need to check website on firefox too.
         border: 0; 
     }
 
+    .current{
+        position: absolute; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+        left: 1px;
+    }
+
+    .visuallyHidden{
+        position: relative; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+        left: 1px;
+    }
+
     ul{
         display: flex;
         flex-flow: row wrap;
@@ -680,8 +752,8 @@ We need to check website on firefox too.
 
     footer {
         background-color: #04010a;
-        /*position: relative;*/
-        display: border-box;
+        /*position: relative;
+        display: border-box;*/
         height: 90px;
         width: 100%;
         margin: 0;
