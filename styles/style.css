@@ -239,8 +239,15 @@ We need to check website on firefox too.
     }
 
     article > p {
-        margin: 0 10% 0 10%;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
         font-size: calc(8px + 1vw);
+    }
+    
+    #lastP {
+        margin-bottom: 2%;
     }
     
     article img {
@@ -567,9 +574,13 @@ We need to check website on firefox too.
     }
 
     article > p {
-        margin: 0 10% 0 10%;
+        margin: 2% 10% 2% 10%;
         padding: 0 auto;
         font-size: calc(8px + 1vw);
+    }
+    
+    #lastP {
+        margin-bottom: 3%;
     }
     
     article img {
