@@ -1,0 +1,332 @@
+
+
+@media only screen and (max-width: 600px){
+
+    /* Styling Html in general */
+    * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+        background-color: black;
+        scroll-behavior: smooth;
+        max-width: 100%;
+        height: 100%;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+
+    
+    /* Navigation bar */
+    nav{
+        background-color: #3c0147;
+        position: sticky;
+        text-align: center;
+        max-width: 100%;
+        margin: 0;
+        padding: 3px;
+    }
+
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+        column-gap: 5px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+
+        /* adding these two lines for internet explorer as flex-justify content does not work*/
+        align-items: center;
+        justify-content: center;
+    }
+
+    li{
+        display: flex;
+        font-size: calc(0.70em + 1vw);
+        font-weight: lighter;
+        padding: 5px 10px 5px 10px;
+        margin: 0;
+    }
+
+    li a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;  
+    }
+
+    /*bottom border here is for accessibilty*/
+    li a:active{
+        color: #04010a;
+        font-weight: lighter;
+        Text-shadow: 0 0 18px white;
+        border-bottom: .25em solid #444;
+    }
+
+    footer {
+        background-color: #04010a;
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+        margin-top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 20px 20px 20px 20px;
+    }
+
+    footer p {
+        color: white;
+        font-size:  calc(12px + 1vw);
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+
+    /* Html style in generel */
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+    /* Using viewport units for fonts to make text auto resize and stay maximum inside purple background for readability*/
+    html,
+    body{
+        scroll-behavior: smooth;
+        max-width: 100%;
+        margin: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;  
+        height: 100vh;
+    }
+    
+    /* Navigation bar */
+    nav{
+        /* You guys decicide if we need this code or not I see no difference with it or without it:
+        display: flex;
+        flex-flow: column wrap; 
+        justify-content: center;*/
+        background-color: #3c0147;
+        position: sticky;
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3px;
+}
+
+    /*for screen readers*/
+    .visuallyhidden{
+        position: absolute; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+    }
+
+    .current{
+        position: absolute; 
+        /* overflow: hidden; */
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0;
+
+    }
+
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+        column-gap: 10px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+
+        /* adding these two lines for internet explorer as flex-justify content does not work*/
+        align-items: center;
+        justify-content: center;
+    }
+
+    li{
+        display: flex;
+        font-size:calc(0.5rem + 1vw);
+        font-weight: lighter;
+        padding: 5px 10px 5px 10px;
+        margin: 0;
+    }
+
+    li a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 5px 10px 5px 10px;
+        margin: 0px;  
+    }    
+
+    li a:hover{
+        background-color: rgba(255, 255, 255, 0.521);
+        color: #04010a;
+        font-weight: 400;
+        box-shadow: 0 0 10px white;
+        border-radius: 15px;
+        transition: all 0.75s ease;
+    }
+
+
+    footer {
+        background-color: #04010a;
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+        margin-top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 20px 20px 20px 20px;
+    }
+
+    footer p {
+        color: white;
+        font-size:  calc(12px + 1vw);
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 960px){
+
+    /* Html style in general*/
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+
+    /* Using viewport units for fonts to make text auto resize and stay maximum inside purple background for readability*/
+    html,
+    body{
+        scroll-behavior: smooth;
+        font-family: "Arial", Helvetica, sans-serif;
+        font-size: calc(10px + 1vw);
+        max-width: 100%;
+        margin: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;  
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto 1fr auto;
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    /* Navigation bar */
+    nav{
+        background-color: #04010a;
+        position: sticky;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 3px;
+    }
+
+    /*https://snook.ca/archives/html_and_css/hiding-content-for-accessibility used style guide from here for screen readers*/
+    .visuallyhidden{
+        position: absolute; 
+        overflow: hidden;
+        height: 1px;
+        margin: 0; 
+        padding: 0; 
+        border: 0; 
+    }
+
+    ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+        column-gap: 10px;
+        list-style: none;
+        /* margin: 20px 0px; */
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+
+        /* adding these two lines for internet explorer as flex-justify content does not work*/
+        align-items: center;
+        justify-content: center;
+    }
+
+    li{
+        display: flex;
+        font-size:calc(0.01rem + 1vw);
+        font-weight: lighter;
+        display: flex;
+        padding: 5px 10px 5px 10px;
+        margin: 0;
+    }
+
+    li a{
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        padding: 5px 10px 5px 10px;
+        margin: 0px;  
+    }
+
+    li a:hover{
+        transition: all 0.75s ease;
+        background-color: rgba(255, 255, 255, 0.521);
+        color: #04010a;
+        font-weight: 400;
+        box-shadow: 0 0 10px white;
+        border-radius: 15px;
+    }
+
+    
+    footer {
+        background-color: #04010a;
+        /*position: relative;*/
+        display: border-box;
+        height: 90px;
+        width: 100%;
+        margin: 0;
+        bottom: 0;
+        padding: 20px 20px 20px 20px;
+    }
+
+    footer p {
+        color: white;
+        font-size:  calc(2px + 1vw);
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+}

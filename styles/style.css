@@ -241,6 +241,7 @@ We need to check website on firefox too.
         font-family: "Arial", Helvetica, sans-serif;
         font-size: calc(10px + 1vw);
         max-width: 100%;
+        height: 100vh;
         margin: 0;
         top: 0;
         right: 0;
@@ -249,8 +250,6 @@ We need to check website on firefox too.
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto 1fr auto;
-        max-width: 100%;
-        height: 100vh;
     }
     
     /* Navigation bar */
@@ -269,7 +268,7 @@ We need to check website on firefox too.
 
     /*for screen readers*/
     .visuallyhidden{
-        position: absolute; 
+        position: fixed; 
         overflow: hidden;
         height: 1px;
         margin: 0; 
@@ -281,11 +280,11 @@ We need to check website on firefox too.
         display: flex;
         flex-flow: row wrap;
         justify-content: start;
-        column-gap: 10px;
+        column-gap: 0;
         list-style: none;
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
-        max-width: 100%;
+        max-width: 80%;
 
         /* adding these two lines for internet explorer as flex-justify content does not work*/
         align-items: center;
@@ -489,7 +488,6 @@ We need to check website on firefox too.
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto 1fr auto;
-        max-width: 100%;
         height: 100vh;
     }
 
