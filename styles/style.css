@@ -324,10 +324,6 @@ We need to check website on firefox too.
     
     /* Navigation bar */
     nav{
-        /* You guys decicide if we need this code or not I see no difference with it or without it:
-        display: flex;
-        flex-flow: column wrap; 
-        justify-content: center;*/
         background-color: #04010a;
         position: sticky;
         text-align: center;
@@ -633,7 +629,7 @@ We need to check website on firefox too.
         padding: 3px;
     }
 
-    /*https://snook.ca/archives/html_and_css/hiding-content-for-accessibility used style guide from here for screen readers*/
+    /* For screen readers*/
     .visuallyhidden{
         position: absolute; 
         overflow: hidden;
