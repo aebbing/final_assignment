@@ -283,11 +283,18 @@ We need to check website on firefox too.
     }
 
     #toggle {
-        display: none;
+        height: 1px;
+        width: 1px;
+        line-height: 1px;
+        opacity: 0;
     }
 
     #toggle:checked ~ ul {
         display: block;
+    }
+
+    nav > label, input {
+        display: inline-block;
     }
     /*css hamburger menu - end*/
     /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
@@ -583,11 +590,18 @@ We need to check website on firefox too.
     }
 
     #toggle {
-        display: none;
+        height: 1px;
+        width: 1px;
+        line-height: 1px;
+        opacity: 0;
     }
 
     #toggle:checked ~ ul {
         display: block;
+    }
+
+    nav > label, input {
+        display: inline-block;
     }
     /*css hamburger menu - end*/
     /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
