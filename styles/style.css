@@ -268,6 +268,11 @@ We need to check website on firefox too.
         padding: 0 auto;
     }
 
+    .here {
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+
     /*css hamburger menu - start*/
     ul li {
         line-height: 50px;
@@ -575,6 +580,11 @@ We need to check website on firefox too.
         padding: 0 auto;
     }
 
+    .here {
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+
     /*css hamburger menu - start*/
     ul li {
         line-height: 50px;
@@ -717,6 +727,7 @@ We need to check website on firefox too.
         box-shadow: 0 0 10px white;
         border-radius: 15px;
     }
+
 
 
     /* Home Section */
@@ -868,6 +879,11 @@ We need to check website on firefox too.
         text-align: center;
         margin: 0 auto;
         padding: 0 auto;
+    }
+
+    .here {
+        text-decoration: underline;
+        text-decoration-color: white;
     }
 
     /*css hamburger menu - start*/
