@@ -41,6 +41,10 @@ We need to check website on firefox too.
         max-width: 100%;
         margin: 0;
         padding: 3px;
+        /*addition for hamburger menu - start*/
+        line-height: 50px;
+        width: 100%;
+        /*addition for hamburger menu - end*/
     }
 
     /*for screen readers*/
@@ -86,10 +90,16 @@ We need to check website on firefox too.
         /* adding these two lines for internet explorer as flex-justify content does not work*/
         align-items: center;
         justify-content: center;
+
+        /*hamburger menu addition*/
+        display: none;
     }
 
     li{
-        display: flex;
+        /*changing the display for hamburger menu - start*/
+        /*display: flex;*/
+        width: 100%;
+        /*end*/
         font-size: calc(0.70em + 1vw);
         font-weight: lighter;
         padding: 5px 10px 5px 10px;
@@ -257,6 +267,30 @@ We need to check website on firefox too.
         margin: 0 auto;
         padding: 0 auto;
     }
+
+    /*css hamburger menu - start*/
+    ul li {
+        line-height: 50px;
+    }
+
+    label {
+        color: white;
+        font-size: 40px;
+        display: block;
+        cursor: pointer;
+        line-height: 50px;
+        width: 50px;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked ~ ul {
+        display: block;
+    }
+    /*css hamburger menu - end*/
+    /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
 }
 
 
@@ -300,6 +334,10 @@ We need to check website on firefox too.
         max-width: 100%;
         margin: 0 auto;
         padding: 3px;
+        /*addition for hamburger menu - start*/
+        line-height: 50px;
+        width: 100%;
+        /*addition for hamburger menu - end*/
     }
 
     /*for screen readers*/
@@ -347,10 +385,16 @@ We need to check website on firefox too.
         /* adding these two lines for internet explorer as flex-justify content does not work*/
         align-items: center;
         justify-content: center;
+
+        /*hamburger menu addition*/
+        display: none;
     }
 
     li{
-        display: flex;
+        /*changing the display for hamburger menu - start*/
+        /*display: flex;*/
+        width: 100%;
+        /*end*/
         font-size:calc(0.5rem +1vw);
         font-weight: lighter;
         padding: 5px 10px 5px 10px;
@@ -523,6 +567,30 @@ We need to check website on firefox too.
         margin: 0 auto;
         padding: 0 auto;
     }
+
+    /*css hamburger menu - start*/
+    ul li {
+        line-height: 50px;
+    }
+
+    label {
+        color: white;
+        font-size: 40px;
+        display: block;
+        cursor: pointer;
+        line-height: 50px;
+        width: 50px;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    #toggle:checked ~ ul {
+        display: block;
+    }
+    /*css hamburger menu - end*/
+    /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
 
 }
 
@@ -787,4 +855,14 @@ We need to check website on firefox too.
         margin: 0 auto;
         padding: 0 auto;
     }
+
+    /*css hamburger menu - start*/
+    label {
+        display: none;
+    }
+
+    #toggle {
+        display: none;
+    }
+    /*css hamburger menu - end*/
 }
