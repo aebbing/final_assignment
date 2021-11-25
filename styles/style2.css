@@ -108,6 +108,7 @@
         margin-top: 7%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 1%;
         font-size: calc(0.80em + 1vw);
         font-weight: 500;
         border: 0.1rem solid #fff;
@@ -131,7 +132,7 @@
     }
     
 
-    .box > div{
+    .box {
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -181,8 +182,6 @@
         padding: 0 auto;
     }
 }
-
-
 
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
@@ -297,6 +296,7 @@
         margin-top: 7%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 1%;
         font-size: calc(0.85em + 2vw);
         font-weight: 500;
         border: 0.1rem solid #fff;
@@ -320,7 +320,7 @@
     }
     
 
-    .box > div{
+    .box{
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -493,6 +493,7 @@
         margin-top: 7%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 1%;
         font-size: calc(0.85em + 1vw);
         font-weight: 500;
         border: 0.1rem solid #fff;
@@ -516,7 +517,7 @@
     }
     
 
-    .box > div{
+    .box{
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -544,9 +545,6 @@
             0 0 21px rgba(255, 255, 255, 0.726);   
     }
   
-
-
-
 
 /*
     .lines {
