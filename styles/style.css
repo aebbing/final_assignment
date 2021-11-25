@@ -413,7 +413,7 @@ We need to check website on firefox too.
     }    
 
     li a:hover{
-        background-color: rgba(255, 255, 255, 0.521);
+        background-color: rgba(255, 255, 255, 0.63);
         color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
@@ -707,7 +707,7 @@ We need to check website on firefox too.
 
     li a:hover{
         transition: all 0.75s ease;
-        background-color: rgba(255, 255, 255, 0.521);
+        background-color: rgba(255, 255, 255, 0.733);
         color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
