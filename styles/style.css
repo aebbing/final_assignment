@@ -246,8 +246,22 @@ We need to check website on firefox too.
     
     article img {
         max-height: 150px;
-        margin: 5% 10% 5% 10%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
+    }
+    
+    #artHeader {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .reflect p {
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     footer {
@@ -264,8 +278,8 @@ We need to check website on firefox too.
         font-size:  calc(0.70em + 1vw);
         width: 80%;
         text-align: center;
-        margin: 0 auto;
-        padding: 0 auto;
+        margin: 0px auto;
+        padding: 0px auto;
     }
 
     .here {
@@ -403,7 +417,7 @@ We need to check website on firefox too.
         /*display: flex;*/
         width: 100%;
         /*end*/
-        font-size:calc(0.5rem +1vw);
+        font-size:calc(0.5rem + 1vw);
         font-weight: lighter;
         padding: 5px 10px 5px 10px;
         margin: 0;
@@ -418,7 +432,7 @@ We need to check website on firefox too.
     }    
 
     li a:hover{
-        background-color: rgba(255, 255, 255, 0.521);
+        background-color: rgba(255, 255, 255, 0.63);
         color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
@@ -551,8 +565,22 @@ We need to check website on firefox too.
     
     article img {
         max-height: 200px;
-        margin: 5% 10% 5% 10%;
-        display: flex;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #artHeader {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .reflect p {
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     footer {
@@ -717,7 +745,7 @@ We need to check website on firefox too.
 
     li a:hover{
         transition: all 0.75s ease;
-        background-color: rgba(255, 255, 255, 0.521);
+        background-color: rgba(255, 255, 255, 0.733);
         color: #04010a;
         font-weight: 400;
         box-shadow: 0 0 10px white;
@@ -851,9 +879,23 @@ We need to check website on firefox too.
     }
     
     article img {
-        max-height: 1250px;
-        margin: 5% 10% 5% 10%;
+        max-height: 350px;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
+    }
+    
+    #artHeader {
+        text-align: center;
+        padding-bottom: 1%;
+    }
+    
+    .reflect p {
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
 
