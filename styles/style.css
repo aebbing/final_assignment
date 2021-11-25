@@ -290,6 +290,7 @@ We need to check website on firefox too.
     /*css hamburger menu - start*/
     ul li {
         line-height: 50px;
+        text-align: center;
     }
 
     label {
@@ -299,6 +300,7 @@ We need to check website on firefox too.
         cursor: pointer;
         line-height: 50px;
         width: 50px;
+        padding: 10px;
     }
 
     #toggle {
@@ -314,6 +316,10 @@ We need to check website on firefox too.
 
     nav > label, input {
         display: inline-block;
+    }
+
+    nav {
+        text-align: left;
     }
     /*css hamburger menu - end*/
     /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
@@ -612,6 +618,7 @@ We need to check website on firefox too.
     /*css hamburger menu - start*/
     ul li {
         line-height: 50px;
+        text-align: center;
     }
 
     label {
@@ -621,6 +628,7 @@ We need to check website on firefox too.
         cursor: pointer;
         line-height: 50px;
         width: 50px;
+        padding: 10px;
     }
 
     #toggle {
@@ -636,6 +644,10 @@ We need to check website on firefox too.
 
     nav > label, input {
         display: inline-block;
+    }
+
+    nav {
+        text-align: left;
     }
     /*css hamburger menu - end*/
     /*for other code for the hamburger menu see selectors "ul", "li" and "nav"*/
