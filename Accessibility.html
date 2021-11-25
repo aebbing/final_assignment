@@ -36,29 +36,39 @@
       <p>This page describes our thinking process, and what tips we got from the automated accessibility test.</p>
 
       <p>We tried different things to get accessibility using different tests online. For example, we used
-        https://color.a11y.com/ to check the colour contrast of our webpage.</p>
+        color contrast accessibility validator to check the colour contrast of our webpage. The colour-checker 
+        told us that the contrast between the background-colour and the text-colour should be higher. We fixed 
+        this issue to make the visibility of the text clearer for everybody. For easy readability we created a 
+        container to add a background colour. We also added text shadows to the text to make it clearer. We also 
+        used calc() fonts with vw units to make text size bigger if the page is zoomed.  </p>
 
-      <p>We also made some universal coding-choices such as we add aria-labelledby attribute in navigation bar for
-        accessibility. We chose aria-labelledby with label tag to increase compatibility cross web browsers.</p>
+      <p>We used aria-labelledby attribute in navigation bar for accessibility. It also increases compatibility 
+        cross web browsers which assures us that code will run on different platforms. We tried our best to maintain 
+        the semantic structure of the page for example we use nav tag for navigation bar rather than use div tag and 
+        use class as nav. We also used unordered list and h2 tag in navigation bar to increase accessibility 
+        specially for screenreader users. For better performance of aria-labelledby attributes we needed h2 tag rather 
+        than p tag. This way they can identify the structure of the page easily.  </p>
 
-      <p> For small screens we preferred to use :active selector instead :hover selector to make it easier to which page
-        is loaded. For larger screens we used :hover selector to make navigation bar items glow and more visible for
-        users, and underline on navigation bar list items to see where they are on the website. </p>
+      <p>We made sure there is only one h1 tag in main section for screenreader users. Headings levels were used 
+        properly from h1 to h6 where there were more headings. We also avoid using br tag to break paragraphs and 
+        headings to gain maximum accessibility for everyone. 
+      </p>
 
-      <!--<p>For the smaller screens we gathered the menu items in the navigation bar in a hamburger menu, in order to
-        prevent said menu items from stacking on top of each other when the screen width becomes too small. There was,
-        however, an issue in this regard. A screenreader would have simply ignored the three bar icon, and it was
-        impossible to select the icon with the keyboard, which would have robbed screenreader users of the possibility
-        to navigate the website. While researching ways to solve this problem, using JavaScript was presented as a
-        possible solution. However, we arrived at the decision of unhiding the checkbox connected to the icon and adding
-        an aria-label, so that the screenreader would be able to catch it and allowing users to open it by tapping the
-        space bar. At the same time we reduced the checkbox' size and opacity, thus making it invisible to other users.
-      </p>-->
+      <p> For small screens we preferred to use :active selector instead of :hover selector to make it easier to which 
+        page is loaded. For larger screens we used :hover selector to make navigation bar items glow and more visible 
+        for users, and underline on navigation bar list items to see where they are on the website.  </p>
 
-      <p>For easy readability we created a container to add a background colour. We also added text shadows to the text
-        to make it clearer. We also used calc() fonts to make text size bigger if the page is zoomed. </p>
+      <p>For the smaller screens we used the hamburger menu in the navigation bar to prevent list items from stacking 
+        on top of each other when the screen width becomes smaller. There was an issue regarding this. A screenreader 
+        would have simply ignored the three-bar icon, and it was also impossible to select the icon with keyboard. It 
+        was risking our website’s accessibility so we found a solution of unhiding the checkbox connected to the icon
+        and adding an aria-label, so that the screenreader would be able to catch it and allowing users to open it by 
+        tapping the space bar to navigate the website. At the same time, we reduced the checkbox size and opacity, 
+        thus making it invisible to other users.  </p>
 
-      </p> We used W3C CSS validation and html validation for all the pages and found some errors. </p>
+      <p> We used W3C CSS validation and html validation for all the pages and found some errors. There were errors 
+       for example missing id for aria labelledby attribute. We add the id to the nav bar to fix this. We also removed 
+       some unnecessary tags and fixed syntax of code. </p>
 
 
     </article>
