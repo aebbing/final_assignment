@@ -22,7 +22,6 @@ We need to check website on firefox too.
         scroll-behavior: smooth;
         font-family: "Arial", sans-serif, Helvetica;
         font-size: calc(0.80em + 1vw);
-        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
@@ -265,7 +264,6 @@ We need to check website on firefox too.
     }
 
     footer {
-        position: absolute;
         background-color: #04010a;
         width: 100%;
         right: 0;
