@@ -108,6 +108,7 @@
         margin-top: 7%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 1%;
         font-size: calc(0.80em + 1vw);
         font-weight: 500;
         border: 0.1rem solid #fff;
@@ -120,18 +121,25 @@
         0 0 2rem #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
-        
+        inset 0 0 1.3rem #bc13fe;  
     }
 
-    .container {
+    .neonText {
+        color: #fff;
+        text-shadow:
+            0 0 7px rgba(255, 255, 255, 0.74),
+            0 0 10px rgba(255, 255, 255, 0.63),
+            0 0 21px rgba(255, 255, 255, 0.726);   
+    }
+
+    .box {
         display: flex;
         flex-direction: row;
         row-gap: 100px;
     }
     
 
-    .container > div{
+    .box {
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -144,20 +152,24 @@
 
     @keyframes box {
         0%   {background-color: red; left:0px; top:0px;}
-        25%  {background-color: rgb(179, 179, 17); left:98vw; top:0px;}
-        50%  {background-color: rgb(25, 25, 139); left:98vw; top:0px;}
-        /*75%  {background-color:rgb(128, 0, 128); left:98vw; top:200px;}
-        100% {background-color: rgb(27, 114, 27);  left:98vwS; top:0px;} */
-    }      
-      
-      
-    .neonText {
-        color: #fff;
-        text-shadow:
-            0 0 7px rgba(255, 255, 255, 0.74),
-            0 0 10px rgba(255, 255, 255, 0.63),
-            0 0 21px rgba(255, 255, 255, 0.726);   
+        25%  {background-color: rgb(161, 0, 0); left:98vw; top:0px;}
+        50%  {background-color: rgb(255, 0, 13); left:98vw; top:0px;}
     }
+
+    .box2 {
+        width: 5px;
+        height: 5px;
+        background: rgb(182, 29, 29);
+        position: relative;
+        animation: move 5s infinite;
+    }
+      
+    @keyframes move {
+        from {top: 0px;}
+        to {top: 400px;}
+    }
+
+      
 
 
 
@@ -181,8 +193,6 @@
         padding: 0 auto;
     }
 }
-
-
 
 
 @media only screen and (min-width: 600px) and (max-width: 960px) {
@@ -297,6 +307,7 @@
         margin-top: 7%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 1%;
         font-size: calc(0.85em + 2vw);
         font-weight: 500;
         border: 0.1rem solid #fff;
@@ -309,18 +320,25 @@
         0 0 2rem #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
-        
+        inset 0 0 1.3rem #bc13fe;    
     }
 
-    .container {
+    .neonText {
+        color: #fff;
+        text-shadow:
+            0 0 7px rgba(255, 255, 255, 0.74),
+            0 0 10px rgba(255, 255, 255, 0.63),
+            0 0 21px rgba(255, 255, 255, 0.726);   
+    }
+
+    .box {
         display: flex;
         flex-direction: row;
         row-gap: 100px;
     }
     
 
-    .container > div{
+    .box{
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -333,22 +351,24 @@
 
     @keyframes box {
         0%   {background-color: red; left:0px; top:0px;}
-        25%  {background-color: rgb(179, 179, 17); left:98vw; top:0px;}
-        50%  {background-color: rgb(25, 25, 139); left:98vw; top:0px;}
-        /*75%  {background-color:rgb(128, 0, 128); left:98vw; top:200px;}
-        100% {background-color: rgb(27, 114, 27);  left:98vwS; top:0px;} */
-    }      
-      
-      
-    .neonText {
-        color: #fff;
-        text-shadow:
-            0 0 7px rgba(255, 255, 255, 0.74),
-            0 0 10px rgba(255, 255, 255, 0.63),
-            0 0 21px rgba(255, 255, 255, 0.726);   
+        25%  {background-color: rgb(161, 0, 0); left:98vw; top:0px;}
+        50%  {background-color: rgb(255, 0, 13); left:98vw; top:0px;}
+    }  
+    
+    
+    .box2 {
+        width: 5px;
+        height: 5px;
+        background: rgb(182, 29, 29);
+        position: relative;
+        animation: move 5s infinite;
     }
-  
-
+      
+    @keyframes move {
+        from {top: 0px;}
+        to {top: 400px;}
+    }
+      
 
     footer {
         background-color: #000000;
@@ -485,7 +505,6 @@
         border-radius: 15px;
     }
 
-
     
     /*neon styling*/
 
@@ -493,6 +512,7 @@
         margin-top: 7%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-bottom: 1%;
         font-size: calc(0.85em + 1vw);
         font-weight: 500;
         border: 0.1rem solid #fff;
@@ -505,18 +525,25 @@
         0 0 2rem #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;
-        
+        inset 0 0 1.3rem #bc13fe;  
     }
 
-    .container {
+    .neonText {
+        color: #fff;
+        text-shadow:
+            0 0 7px rgba(255, 255, 255, 0.74),
+            0 0 10px rgba(255, 255, 255, 0.63),
+            0 0 21px rgba(255, 255, 255, 0.726);   
+    }
+
+    .box {
         display: flex;
         flex-direction: row;
         row-gap: 100px;
     }
     
 
-    .container > div{
+    .box{
         width: 5px;
         height: 5px;
         margin-left: 0;
@@ -529,53 +556,24 @@
 
     @keyframes box {
         0%   {background-color: red; left:0px; top:0px;}
-        25%  {background-color: rgb(179, 179, 17); left:98vw; top:0px;}
-        50%  {background-color: rgb(25, 25, 139); left:98vw; top:0px;}
-        /*75%  {background-color:rgb(128, 0, 128); left:98vw; top:200px;}
-        100% {background-color: rgb(27, 114, 27);  left:98vwS; top:0px;} */
-    }      
-      
-      
-    .neonText {
-        color: #fff;
-        text-shadow:
-            0 0 7px rgba(255, 255, 255, 0.74),
-            0 0 10px rgba(255, 255, 255, 0.63),
-            0 0 21px rgba(255, 255, 255, 0.726);   
-    }
-  
-
-
-
-
-/*
-    .lines {
-        display: block;
-        color: turquoise;
-        margin-right: auto; 
-        margin-left: auto; 
-        overflow: hidden; 
-        border-style: inset; 
-        border-width: 1px;
-        width: 60%;
-    }
+        25%  {background-color: rgb(161, 0, 0); left:98vw; top:0px;}
+        50%  {background-color: rgb(255, 0, 13); left:98vw; top:0px;}
+    } 
     
-    .neonLines {
-        color: #59c1fe;
-        position: fixed;
-        width: 100vw;
-        height: 4em;
-        background: linear-gradient(rgba(color, 0.2) 20%, color 40%, color 60%, rgba(color, 0.2) 80%);
-        background-size: 1px 0.5em;
-        box-shadow: 0 0 1em rgba(color, 0.4);
-        transform: translateY(-1em);
-        left: 0;
-      }*/
-
-
-
-
-
+    
+    .box2 {
+        width: 5px;
+        height: 5px;
+        background: rgb(182, 29, 29);
+        position: relative;
+        animation: move 5s infinite;
+    }
+      
+    @keyframes move {
+        from {top: 0px;}
+        to {top: 400px;}
+    }
+      
     
     footer {
         background-color: #000000;
