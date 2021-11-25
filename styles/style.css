@@ -286,6 +286,7 @@ We need to check website on firefox too.
         height: 1px;
         width: 1px;
         line-height: 1px;
+        opacity: 0;
     }
 
     #toggle:checked ~ ul {
@@ -592,6 +593,7 @@ We need to check website on firefox too.
         height: 1px;
         width: 1px;
         line-height: 1px;
+        opacity: 0;
     }
 
     #toggle:checked ~ ul {
