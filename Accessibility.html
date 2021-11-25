@@ -36,24 +36,25 @@
       <p>This page describes our thinking process, and what tips we got from the automated accessibility test.</p>
 
       <p>We tried different things to get accessibility using different tests online. For example, we used
-         https://color.a11y.com/ to check the colour contrast of our webpage. The colour-checker told us that 
-         the contrast between the background-colour and the text-colour should be higher. We fixed this issue 
-         to make the visibility of the text clearer for everybody. For easy readability we created a container 
-         to add a background colour. We also added text shadows to the text to make it clearer.  We also used 
-         calc() fonts with vw units to make text size bigger if the page is zoomed.  </p>
+        color contrast accessibility validator to check the colour contrast of our webpage. The colour-checker 
+        told us that the contrast between the background-colour and the text-colour should be higher. We fixed 
+        this issue to make the visibility of the text clearer for everybody. For easy readability we created a 
+        container to add a background colour. We also added text shadows to the text to make it clearer. We also 
+        used calc() fonts with vw units to make text size bigger if the page is zoomed.  </p>
 
       <p>We used aria-labelledby attribute in navigation bar for accessibility. It also increases compatibility 
-        cross web browsers which assures us that code will run on different platforms. We tried our best to main 
-        the semantic structure of the page for example we use nav tag for navigation bar rather use div tag and 
+        cross web browsers which assures us that code will run on different platforms. We tried our best to maintain 
+        the semantic structure of the page for example we use nav tag for navigation bar rather than use div tag and 
         use class as nav. We also used unordered list and h2 tag in navigation bar to increase accessibility 
-        specially for screenreader users. This way they can identify the structure of the page easily.  </p>
+        specially for screenreader users. For better performance of aria-labelledby attributes we needed h2 tag rather 
+        than p tag. This way they can identify the structure of the page easily.  </p>
 
       <p>We made sure there is only one h1 tag in main section for screenreader users. Headings levels were used 
         properly from h1 to h6 where there were more headings. We also avoid using br tag to break paragraphs and 
         headings to gain maximum accessibility for everyone. 
       </p>
 
-      <p> For small screens we preferred to use :active selector instead :hover selector to make it easier to which 
+      <p> For small screens we preferred to use :active selector instead of :hover selector to make it easier to which 
         page is loaded. For larger screens we used :hover selector to make navigation bar items glow and more visible 
         for users, and underline on navigation bar list items to see where they are on the website.  </p>
 
@@ -67,7 +68,7 @@
 
       </p> We used W3C CSS validation and html validation for all the pages and found some errors. There were errors 
        for example missing id for aria labelledby attribute. We add the id to the nav bar to fix this. We also removed 
-       some unnecessary tags and fixed syntax of code.  </p>
+       some unnecessary tags and fixed syntax of code. </p>
 
 
     </article>
