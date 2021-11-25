@@ -233,6 +233,12 @@ We need to check website on firefox too.
         margin: 0 10% 0 10%;
         font-size: calc(8px + 1vw);
     }
+    
+    article img {
+        max-height: 150px;
+        margin: 5% 10% 5% 10%;
+        display: flex;
+    }
 
     footer {
         position: absolute;
@@ -489,6 +495,12 @@ We need to check website on firefox too.
         margin: 0 10% 0 10%;
         padding: 0 auto;
         font-size: calc(8px + 1vw);
+    }
+    
+    article img {
+        max-height: 200px;
+        margin: 5% 10% 5% 10%;
+        display: flex;
     }
 
     footer {
@@ -747,6 +759,12 @@ We need to check website on firefox too.
         margin: 0 10% 0 10%;
         padding: 0 auto;
         font-size: calc(8px + 1vw);
+    }
+    
+    article img {
+        max-height: 1250px;
+        margin: 5% 10% 5% 10%;
+        display: flex;
     }
 
 
