@@ -269,6 +269,11 @@ We need to check website on firefox too.
         right: 0;
         bottom: 0;
         padding: 1rem;
+        position: relative;
+    }
+
+    #index-footer {
+        position: absolute;
     }
 
     footer p{
