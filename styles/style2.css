@@ -12,7 +12,7 @@
 
 
     body {
-        background-color: rgb(12, 1, 29);
+        background-color: rgb(7, 1, 17);
         scroll-behavior: smooth;
         max-width: 100%;
         min-height: 100vh; 
@@ -101,6 +101,65 @@
         Text-shadow: 0 0 18px white;
         border-bottom: .25em solid #444;
     }
+
+     /*neon styling*/
+
+     h1 {
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: calc(0.80em + 1vw);
+        font-weight: 500;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-align: center;
+
+        box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #bc13fe,
+        0 0 0.8rem #bc13fe,
+        0 0 2.8rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        row-gap: 100px;
+    }
+    
+
+    .container > div{
+        width: 5px;
+        height: 5px;
+        margin-left: 0;
+        margin-top: 10%;
+        position: relative;
+        background-color: red;
+        animation-name: box;
+        animation-duration: 8s;
+    }
+
+    @keyframes box {
+        0%   {background-color: red; left:0px; top:0px;}
+        25%  {background-color: rgb(179, 179, 17); left:98vw; top:0px;}
+        50%  {background-color: rgb(25, 25, 139); left:98vw; top:0px;}
+        /*75%  {background-color:rgb(128, 0, 128); left:98vw; top:200px;}
+        100% {background-color: rgb(27, 114, 27);  left:98vwS; top:0px;} */
+    }      
+      
+      
+    .neonText {
+        color: #fff;
+        text-shadow:
+            0 0 7px rgba(255, 255, 255, 0.74),
+            0 0 10px rgba(255, 255, 255, 0.63),
+            0 0 21px rgba(255, 255, 255, 0.726);   
+    }
+
+
 
     footer {
         background-color: #000000;
@@ -329,6 +388,7 @@
     body{
         scroll-behavior: smooth;
         font-family: "Arial", Helvetica, sans-serif; /*we can change font styles*/
+        background-color: rgb(7, 1, 17);
         font-size: calc(10px + 1vw);
         max-width: 100%;
         min-height: 100vh;
@@ -340,16 +400,14 @@
         display: grid;
         grid-template-columns:auto;
         grid-template-rows: auto 1fr auto;
-
     }
 
     /* Navigation bar */
     nav{
-        background-color: #1f0124;
+        background-color: #000000;
         position: sticky;
         text-align: center;
         width: 100%;
-        
         margin: 0 auto;
         padding: 3px;
     }
@@ -426,6 +484,69 @@
         box-shadow: 0 0 10px white;
         border-radius: 15px;
     }
+
+
+    
+    /*neon styling*/
+
+    h1 {
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: calc(0.85em + 1vw);
+        font-weight: 500;
+        border: 0.1rem solid #fff;
+        border-radius: 1rem;
+        padding: 0.2em;
+        text-align: center;
+
+        box-shadow: 0 0 .2rem #fff,
+        0 0 .2rem #fff,
+        0 0 2rem #bc13fe,
+        0 0 0.8rem #bc13fe,
+        0 0 2.8rem #bc13fe,
+        inset 0 0 1.3rem #bc13fe;
+        
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        row-gap: 100px;
+    }
+    
+
+    .container > div{
+        width: 5px;
+        height: 5px;
+        margin-left: 0;
+        margin-top: 10%;
+        position: relative;
+        background-color: red;
+        animation-name: box;
+        animation-duration: 8s;
+    }
+
+    @keyframes box {
+        0%   {background-color: red; left:0px; top:0px;}
+        25%  {background-color: rgb(179, 179, 17); left:98vw; top:0px;}
+        50%  {background-color: rgb(25, 25, 139); left:98vw; top:0px;}
+        /*75%  {background-color:rgb(128, 0, 128); left:98vw; top:200px;}
+        100% {background-color: rgb(27, 114, 27);  left:98vwS; top:0px;} */
+    }      
+      
+      
+    .neonText {
+        color: #fff;
+        text-shadow:
+            0 0 7px rgba(255, 255, 255, 0.74),
+            0 0 10px rgba(255, 255, 255, 0.63),
+            0 0 21px rgba(255, 255, 255, 0.726);   
+    }
+  
+
+
+
 
 /*
     .lines {
