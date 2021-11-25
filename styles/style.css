@@ -328,7 +328,7 @@ We need to check website on firefox too.
         max-width: 100%;
         justify-content: center;
         align-items: center;
-        
+        height: 70%;
     }
 
     #home::before{
@@ -368,10 +368,10 @@ We need to check website on firefox too.
     }
 
     h1{
-        font-size: calc(14px + 5vw);
+        font-size: calc(12px + 4vw);
         text-align: center;
         position: relative;
-        margin: 20px 5px 0 5px;
+        margin: 5% 5px 0 5px;
         padding: 0 5px 10px 5px;
         max-width: 80%;
     }
@@ -379,12 +379,12 @@ We need to check website on firefox too.
     p{
         position: relative;
         text-align: center;
-        font-size: calc(10px + 1.5vw);
-        font-weight: 500;
+        font-size: calc(11px + 1.5vw);
+        font-weight: 520;
         margin: 0;
         padding: 0;
-        max-width: 90%;
-        line-height: 1.1;
+        max-width: 55%;
+        line-height: 1.2;
     }
 
     /* light glow to make text readable */
