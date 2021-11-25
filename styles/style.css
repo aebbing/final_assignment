@@ -264,8 +264,8 @@ We need to check website on firefox too.
         font-size:  calc(0.70em + 1vw);
         width: 80%;
         text-align: center;
-        margin: 0 auto;
-        padding: 0 auto;
+        margin: 0px auto;
+        padding: 0px auto;
     }
 
     .here {
@@ -403,7 +403,7 @@ We need to check website on firefox too.
         /*display: flex;*/
         width: 100%;
         /*end*/
-        font-size:calc(0.5rem +1vw);
+        font-size:calc(0.5rem + 1vw);
         font-weight: lighter;
         padding: 5px 10px 5px 10px;
         margin: 0;
