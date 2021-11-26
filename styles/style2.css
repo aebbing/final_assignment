@@ -125,6 +125,26 @@
         inset 0 0 1.3rem #bc13fe;  
     }
 
+    article * {
+        margin: 0 auto;
+        text-align: center;
+    }
+    h2 {
+        color: white;
+        font-size: calc(0.6em + 1vw);
+        padding: 1rem;
+    }
+
+    p {
+        color: white;
+        font-size: calc(0.4em + 1vw);
+        padding: 1rem;
+    }
+
+    img {
+        padding: 1rem;
+    }
+
     .neonText {
         color: #fff;
         text-shadow:
@@ -323,6 +343,26 @@
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
         inset 0 0 1.3rem #bc13fe;    
+    }
+
+    article * {
+        margin: 0 auto;
+        text-align: center;
+    }
+    h2 {
+        color: white;
+        font-size: calc(0.6em + 1vw);
+        padding: 1rem;
+    }
+
+    p {
+        color: white;
+        font-size: calc(0.4em + 1vw);
+        padding: 1rem;
+    }
+
+    img {
+        padding: 1rem;
     }
 
     .neonText {
