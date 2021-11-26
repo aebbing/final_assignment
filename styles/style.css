@@ -285,7 +285,7 @@ We need to check website on firefox too.
 
     footer p{
         color: white;
-        font-size:  calc(0.70em + 1vw);
+        font-size:  calc(12px + 1vw);
         width: 80%;
         text-align: center;
         margin: 0px auto;
@@ -618,7 +618,7 @@ We need to check website on firefox too.
 
     footer p {
         color: white;
-        font-size:  calc(12px + 1vw);
+        font-size:  calc(9px + 1vw);
         width: 90%;
         text-align: center;
         margin: 0 auto;
