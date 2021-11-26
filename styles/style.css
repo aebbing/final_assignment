@@ -113,9 +113,11 @@ We need to check website on firefox too.
 
     /*bottom border here is for accessibilty*/
     li a:active{
+        background-color: rgba(255, 255, 255, 0.733);
         color: #04010a;
-        font-weight: lighter;
-        Text-shadow: 0 0 18px white;
+        font-weight: 400;
+        box-shadow: 0 0 10px white;
+        border-radius: 15px;
         border-bottom: .25em solid #444;
     }
 
